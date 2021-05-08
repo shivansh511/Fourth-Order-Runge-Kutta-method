@@ -16,7 +16,7 @@ v_init=0.0 # Initial velocity of oscillator
 
 x,x_dot,time=ob.solution(x_init,v_init)
 
-# Visualizing the results for damped oscillator
+# Visualizing the results for Van der Pol oscillator
 
 fig = plt.figure(figsize=(10,5))
 
